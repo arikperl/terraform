@@ -10,8 +10,13 @@ variable "tags" {
   default     = {}
 }
 
+variable "env" {
+    description = ""
+}
+
 variable "cidr" {
     description = ""
+    default = ""
 }
 
 variable "instance_tenancy" {
