@@ -18,10 +18,6 @@ variable "instance_tenancy" {
     description = ""
 }
 
-variable "instance_tenancy" {
-    description = ""
-}
-
 variable "enable_dns_hostnames" {
     description = ""
 }
