@@ -10,6 +10,7 @@ resource "aws_vpc" "this" {
     {
       "Name" = format("%s", "VPC-${var.env}")
     },
+    
     var.tags,
     var.vpc_tags,
   )
